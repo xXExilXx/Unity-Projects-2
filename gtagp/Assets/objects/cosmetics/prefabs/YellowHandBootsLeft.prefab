@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+PrefabInstance:
+  serializedVersion: 2
+  m_RootGameObject: {fileID: 1689767396943640}
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+--- !u!1 &1689767396943640
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4970345468583527}
+  m_Layer: 14
+  m_Name: YellowHandBootsLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4970345468583527
+Transform:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689767396943640}
+  m_LocalRotation: {x: 3.72529E-08, y: 5.960463E-08, z: 9.778884E-09, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4250393106761529}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 4.268868E-06, y: -6.830187E-06, z: -1.120578E-06}
+--- !u!1 &1319264504684399
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4250393106761529}
+  - component: {fileID: 33337293892956541}
+  - component: {fileID: 23807082408114309}
+  - component: {fileID: 114849388344747817}
+  m_Layer: 0
+  m_Name: YELLOW HAND BOOTS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4250393106761529
+Transform:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319264504684399}
+  m_LocalRotation: {x: 0.08759921, y: 0.0001308322, z: 0.5663549, w: 0.8194928}
+  m_LocalPosition: {x: 0.09928738, y: 0.1433471, z: 0.2536811}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4970345468583527}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 8.304373, y: 5.682168, z: -68.88419}
+--- !u!33 &33337293892956541
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319264504684399}
+  m_Mesh: {fileID: 4300000, guid: 15047946c749a8f429befa9fef1be3aa, type: 2}
+--- !u!23 &23807082408114309
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319264504684399}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f5484afd84477a045bd850437b0f76b4, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114849388344747817
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319264504684399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12f418bfae32e6044a972f6fa887a08c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  myRig: {fileID: 0}
+  myOnlineRig: {fileID: 0}
+  latched: 0
+  testActivate: 0
+  testDeactivate: 0
+  myThreshold: 0.8
+  hysterisis: 0.05
+  flipOnXForLeftHand: 0
+  flipOnYForLeftHand: 0
+  flipOnXForLeftArm: 0
+  disableStealing: 0
+  itemState: 0
+  gripInteractor: {fileID: 0}
+  storedZone: 0
+  currentState: 0
+  dockPositions: 1
+  targetRig: {fileID: 0}
+  targetDock: {fileID: 0}
+  canAutoGrabLeft: 0
+  canAutoGrabRight: 0
+  objectIndex: 0
+  anchor: {fileID: 4970345468583527}
+  myIndex: 29
+  canDrop: 0
+  interpState: 0

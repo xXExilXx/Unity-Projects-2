@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+PrefabInstance:
+  serializedVersion: 2
+  m_RootGameObject: {fileID: 1471841171284390}
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+--- !u!1 &1471841171284390
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4358739649968409}
+  - component: {fileID: 114504682851064634}
+  - component: {fileID: 114802824564993238}
+  - component: {fileID: 114712711856072060}
+  m_Layer: 0
+  m_Name: Paintball_BatchPrefabBaker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4358739649968409
+Transform:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471841171284390}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114504682851064634
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471841171284390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a669ed09b09045f42abea19c5bc85e7e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  LOG_LEVEL: 3
+  prefabRows:
+  - sourcePrefab: {fileID: 1667242388694475, guid: 0bd6dc377724c414e8395aaa72ab1c2f, type: 2}
+    resultPrefab: {fileID: 1972010638685546, guid: 427ea406be9b9b2418162c9c8fe3a042, type: 2}
+  - sourcePrefab: {fileID: 1380699536547309, guid: 2e2cedd4f3bd9bf41812f0e2eedb9e21, type: 2}
+    resultPrefab: {fileID: 1001107211708908, guid: a06c020346a9158419f5e76ae93f8305, type: 2}
+  - sourcePrefab: {fileID: 1477596228560385, guid: e9875865ea1d30a45bb4826bd32d1e4b, type: 2}
+    resultPrefab: {fileID: 1349311098548069, guid: f5f0366651be4de4493c2040ea3420bb, type: 2}
+  - sourcePrefab: {fileID: 1939470978741633, guid: ac24440a9649e0a4ab165e3b8634da63, type: 2}
+    resultPrefab: {fileID: 1184653515420685, guid: e2122fef03b124e4b84c321598a84802, type: 2}
+  - sourcePrefab: {fileID: 1964453515959109, guid: b997e90e964700d48847d2d61a43dcba, type: 2}
+    resultPrefab: {fileID: 1717891623000978, guid: b6b9b7b8d6a7c7348b18fc0218203a8b, type: 2}
+  - sourcePrefab: {fileID: 1253368829596279, guid: 4c455e74cb25d864d987b48d32e65fb0, type: 2}
+    resultPrefab: {fileID: 1075473408543604, guid: 66e859679b0f0d34aa0c9878a9e7f62c, type: 2}
+  - sourcePrefab: {fileID: 1921740242458185, guid: eff063a3c5d67d841a6303a140cca8eb, type: 2}
+    resultPrefab: {fileID: 1506479311837487, guid: 84906ed90601c4b40b1cf208dd1c6451, type: 2}
+  - sourcePrefab: {fileID: 1931506505588824, guid: 383889451863de64e9206913774706b7, type: 2}
+    resultPrefab: {fileID: 1273720351012829, guid: 3c27802bbbf07704eac374b06f3d8df6, type: 2}
+  - sourcePrefab: {fileID: 1717634710509079, guid: d9c9aef0f9ef5634bab306522ca95019, type: 2}
+    resultPrefab: {fileID: 1856475400976015, guid: 2ceb3a560cee79e40b8a5ac3661bec07, type: 2}
+  - sourcePrefab: {fileID: 1952067174354274, guid: 5ac06e980c69a8d40acf9958641aef8e, type: 2}
+    resultPrefab: {fileID: 1721963020551767, guid: 6c3957f223a408b4c90943fd473df7f3, type: 2}
+  - sourcePrefab: {fileID: 1966313698616214, guid: 97217735c8854f74da4aca67d3716a68, type: 2}
+    resultPrefab: {fileID: 1425511639947346, guid: 0ad2be59942eb7845b9be5307e133b72, type: 2}
+  - sourcePrefab: {fileID: 1014288825844892, guid: 6798b1133d853694ba1d08e7363e11f1, type: 2}
+    resultPrefab: {fileID: 1829417095961189, guid: 96ef83adcb19e304994e0bcb74f5e1fb, type: 2}
+  - sourcePrefab: {fileID: 1905852716673797, guid: 2d3018f3cb4a46a4386c9d85e83965ee, type: 2}
+    resultPrefab: {fileID: 1632398483485618, guid: 2f714252a79c73645a4c07a5566575b5, type: 2}
+  - sourcePrefab: {fileID: 1710356668616683, guid: b5d56532f9962db45a703006a1605b21, type: 2}
+    resultPrefab: {fileID: 1659656422476831, guid: ed7fdd4440ae5de408b99b34de9d9b74, type: 2}
+  - sourcePrefab: {fileID: 1087525256765280, guid: b040d5bcda6b69b4b8f539eff9d217c9, type: 2}
+    resultPrefab: {fileID: 1986011447739009, guid: a4a831450f58d984db19b4a371132dd9, type: 2}
+  - sourcePrefab: {fileID: 1084459265810382, guid: 5600214db00f3804fa1c8884a24e0cd0, type: 2}
+    resultPrefab: {fileID: 1223223048969043, guid: 661be2804c9c3864e822221f95df893a, type: 2}
+  - sourcePrefab: {fileID: 1331264861711144, guid: 25d1920866f1ecb49b1e5a341ef11f8f, type: 2}
+    resultPrefab: {fileID: 1095305553333001, guid: 88919a4a909243a4e8c2a219ed329e00, type: 2}
+  - sourcePrefab: {fileID: 1580723933198723, guid: 6fc59b506b37b0a45a60918f6f5ed866, type: 2}
+    resultPrefab: {fileID: 1233616287544570, guid: 0813db37449e41b419f16cc69c784fe2, type: 2}
+  - sourcePrefab: {fileID: 1409788323831477, guid: b678fcdeb68045d4996eec8fb7ecdb0e, type: 2}
+    resultPrefab: {fileID: 1877873167457117, guid: 5669ce3b594cde14ab2b07bbf7cd0591, type: 2}
+  - sourcePrefab: {fileID: 1471515192638419, guid: 307a15f206f7fa5418ff88282190552f, type: 2}
+    resultPrefab: {fileID: 1184150571565084, guid: b6242c25cc0e3314d9a0a73a44dc9250, type: 2}
+  - sourcePrefab: {fileID: 1208373427348302, guid: 210552ab00ad20342b5eaa87f739ce90, type: 2}
+    resultPrefab: {fileID: 1040885764113990, guid: af840fb43cf050749a07a3dccf1324c3, type: 2}
+  - sourcePrefab: {fileID: 1980880752100078, guid: 8622e03d3ca7b184e878920f5d77586e, type: 2}
+    resultPrefab: {fileID: 1045401072094584, guid: a966005b3f4fb6f4d9165bf2876a36d2, type: 2}
+  - sourcePrefab: {fileID: 1907838708938733, guid: 33f731d24846b2c4798eb66422a1bcba, type: 2}
+    resultPrefab: {fileID: 1225140746419869, guid: 1fc447e437d8c8449aa83f733ae7225e, type: 2}
+  - sourcePrefab: {fileID: 1510840479904153, guid: 7283952a004fdde4991d5b2fc2f1b4d1, type: 2}
+    resultPrefab: {fileID: 1821884600901409, guid: 5c8e989c0b47b1d4fb67acbc42c3f2fc, type: 2}
+  - sourcePrefab: {fileID: 1270447222661893, guid: afac767620416f34eb36966f5d6af39d, type: 2}
+    resultPrefab: {fileID: 1439783863333313, guid: 6bd4a3f0e03231545b1024e1f7a1d75c, type: 2}
+  - sourcePrefab: {fileID: 1517911551224888, guid: 0b7d1d4c43925bb4bae5701eb28a4bb4, type: 2}
+    resultPrefab: {fileID: 1163551250481768, guid: 2941846f5c397b04d87532164c65befa, type: 2}
+  - sourcePrefab: {fileID: 1949175858336342, guid: 905995dae7bba3644845c8770ae9cd98, type: 2}
+    resultPrefab: {fileID: 1274454351275906, guid: 45cc541f952ff2447a91827d74c7994e, type: 2}
+  - sourcePrefab: {fileID: 1508081384454436, guid: 6c67bb1be55a3d44db9eea897bf97bff, type: 2}
+    resultPrefab: {fileID: 1515531038422766, guid: 103a1b02e4282bd40a0fe8baeefeba48, type: 2}
+  - sourcePrefab: {fileID: 1902431641191039, guid: f50f39ecaa14e514ea31a2ec69aee789, type: 2}
+    resultPrefab: {fileID: 1258326353064256, guid: d2337231e8827ae49ad97f6ea11a6cc6, type: 2}
+  - sourcePrefab: {fileID: 1256366337424158, guid: 3b383871cda27c84e9a8db7b774d2acd, type: 2}
+    resultPrefab: {fileID: 1482414231889676, guid: 1af136ce99d010c478d031ae975f4508, type: 2}
+  - sourcePrefab: {fileID: 1962848414307401, guid: 0b10646b6f323734b9c6bfd24a3bbe58, type: 2}
+    resultPrefab: {fileID: 1476875655362469, guid: de11ef7ca4c1b4e47a37c440bd7614d2, type: 2}
+  - sourcePrefab: {fileID: 1664440473750159, guid: 00c95e5bf1d6b7b4b83f47dce58d2d5d, type: 2}
+    resultPrefab: {fileID: 1574932946075891, guid: 0a10663f79424a54c97b71b2cedc65d0, type: 2}
+  outputPrefabFolder: Assets/Resources/Objects/cosmetics/PaintBall2022/PaintballAtlasOutput
+--- !u!114 &114802824564993238
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471841171284390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b403f8556236a734c8d1f173bd66a56f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  sortAxis: {x: 0, y: 0, z: 0}
+  LOG_LEVEL: 3
+  _textureBakeResults: {fileID: 11400000, guid: e32fa12e1fd96b94e9f9ec6cc30b97df, type: 2}
+  _atlasPadding: 1
+  _maxAtlasSize: 2048
+  _useMaxAtlasWidthOverride: 0
+  _maxAtlasWidthOverride: 4096
+  _useMaxAtlasHeightOverride: 0
+  _maxAtlasHeightOverride: 4096
+  _resizePowerOfTwoTextures: 0
+  _fixOutOfBoundsUVs: 0
+  _maxTilingBakeSize: 1024
+  _packingAlgorithm: 1
+  _layerTexturePackerFastMesh: -1
+  _meshBakerTexturePackerForcePowerOfTwo: 1
+  _customShaderProperties: []
+  _texturePropNamesToIgnore: []
+  _customShaderPropNames_Depricated: []
+  _resultType: 0
+  _doMultiMaterial: 0
+  _doMultiMaterialSplitAtlasesIfTooBig: 1
+  _doMultiMaterialSplitAtlasesIfOBUVs: 1
+  _resultMaterial: {fileID: 2100000, guid: 2d6f259bb96450043a80060fc2402783, type: 2}
+  _considerNonTextureProperties: 0
+  _doSuggestTreatment: 1
+  resultMaterials: []
+  resultMaterialsTexArray: []
+  textureArrayOutputFormats: []
+  objsToMesh:
+  - {fileID: 1667242388694475, guid: 0bd6dc377724c414e8395aaa72ab1c2f, type: 2}
+  - {fileID: 1380699536547309, guid: 2e2cedd4f3bd9bf41812f0e2eedb9e21, type: 2}
+  - {fileID: 1477596228560385, guid: e9875865ea1d30a45bb4826bd32d1e4b, type: 2}
+  - {fileID: 1939470978741633, guid: ac24440a9649e0a4ab165e3b8634da63, type: 2}
+  - {fileID: 1964453515959109, guid: b997e90e964700d48847d2d61a43dcba, type: 2}
+  - {fileID: 1253368829596279, guid: 4c455e74cb25d864d987b48d32e65fb0, type: 2}
+  - {fileID: 1921740242458185, guid: eff063a3c5d67d841a6303a140cca8eb, type: 2}
+  - {fileID: 1931506505588824, guid: 383889451863de64e9206913774706b7, type: 2}
+  - {fileID: 1717634710509079, guid: d9c9aef0f9ef5634bab306522ca95019, type: 2}
+  - {fileID: 1952067174354274, guid: 5ac06e980c69a8d40acf9958641aef8e, type: 2}
+  - {fileID: 1966313698616214, guid: 97217735c8854f74da4aca67d3716a68, type: 2}
+  - {fileID: 1014288825844892, guid: 6798b1133d853694ba1d08e7363e11f1, type: 2}
+  - {fileID: 1905852716673797, guid: 2d3018f3cb4a46a4386c9d85e83965ee, type: 2}
+  - {fileID: 1710356668616683, guid: b5d56532f9962db45a703006a1605b21, type: 2}
+  - {fileID: 1087525256765280, guid: b040d5bcda6b69b4b8f539eff9d217c9, type: 2}
+  - {fileID: 1084459265810382, guid: 5600214db00f3804fa1c8884a24e0cd0, type: 2}
+  - {fileID: 1331264861711144, guid: 25d1920866f1ecb49b1e5a341ef11f8f, type: 2}
+  - {fileID: 1580723933198723, guid: 6fc59b506b37b0a45a60918f6f5ed866, type: 2}
+  - {fileID: 1409788323831477, guid: b678fcdeb68045d4996eec8fb7ecdb0e, type: 2}
+  - {fileID: 1471515192638419, guid: 307a15f206f7fa5418ff88282190552f, type: 2}
+  - {fileID: 1208373427348302, guid: 210552ab00ad20342b5eaa87f739ce90, type: 2}
+  - {fileID: 1980880752100078, guid: 8622e03d3ca7b184e878920f5d77586e, type: 2}
+  - {fileID: 1907838708938733, guid: 33f731d24846b2c4798eb66422a1bcba, type: 2}
+  - {fileID: 1510840479904153, guid: 7283952a004fdde4991d5b2fc2f1b4d1, type: 2}
+  - {fileID: 1270447222661893, guid: afac767620416f34eb36966f5d6af39d, type: 2}
+  - {fileID: 1517911551224888, guid: 0b7d1d4c43925bb4bae5701eb28a4bb4, type: 2}
+  - {fileID: 1949175858336342, guid: 905995dae7bba3644845c8770ae9cd98, type: 2}
+  - {fileID: 1951426996167530, guid: 6c67bb1be55a3d44db9eea897bf97bff, type: 2}
+  - {fileID: 1551211837653925, guid: f0c41c20adee3c54caac4c6aa2142146, type: 2}
+  - {fileID: 1256366337424158, guid: 3b383871cda27c84e9a8db7b774d2acd, type: 2}
+  - {fileID: 1962848414307401, guid: 0b10646b6f323734b9c6bfd24a3bbe58, type: 2}
+  - {fileID: 1757368238958218, guid: 00c95e5bf1d6b7b4b83f47dce58d2d5d, type: 2}
+  - {fileID: 1539367067979726, guid: 00c95e5bf1d6b7b4b83f47dce58d2d5d, type: 2}
+  - {fileID: 1191203150436571, guid: 19c65ed003637af4394a84410b266f54, type: 2}
+  - {fileID: 1526620867134820, guid: f7f2c1b21da79bc41b9cb6cf2c4cf6a6, type: 2}
+  OnCombinedTexturesCoroutineAtlasesAndRects:
+  - atlases:
+    - {fileID: 0}
+    texPropertyNames:
+    - _MainTex
+--- !u!114 &114712711856072060
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471841171284390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7df4288b80d801b419c542f6c2fa7364, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  sortAxis: {x: 0, y: 0, z: 0}
+  objsToMesh: []
+  useObjsToMeshFromTexBaker: 1
+  clearBuffersAfterBake: 1
+  bakeAssetsInPlaceFolderPath:
+  resultPrefab: {fileID: 0}
+  resultPrefabLeaveInstanceInSceneAfterBake: 0
+  parentSceneObject: {fileID: 0}
+  _meshCombiner:
+    _validationLevel: 2
+    _name:
+    _textureBakeResults: {fileID: 11400000, guid: e32fa12e1fd96b94e9f9ec6cc30b97df, type: 2}
+    _resultSceneObject: {fileID: 0}
+    _targetRenderer: {fileID: 0}
+    _LOG_LEVEL: 3
+    _settingsHolder: {fileID: 0}
+    _outputOption: 1
+    _renderType: 0
+    _lightmapOption: 1
+    _doNorm: 1
+    _doTan: 1
+    _doCol: 0
+    _doUV: 1
+    _doUV3: 0
+    _doUV4: 0
+    _doUV5: 0
+    _doUV6: 0
+    _doUV7: 0
+    _doUV8: 0
+    _doBlendShapes: 0
+    _pivotLocationType: 0
+    _pivotLocation: {x: 0, y: 0, z: 0}
+    _clearBuffersAfterBake: 0
+    _optimizeAfterBake: 1
+    _uv2UnwrappingParamsHardAngle: 60
+    _uv2UnwrappingParamsPackMargin: 0.005
+    _smrNoExtraBonesWhenCombiningMeshRenderers: 0
+    _smrMergeBlendShapesWithSameNames: 0
+    _assignToMeshCustomizer: {fileID: 0}
+    objectsInCombinedMesh: []
+    lightmapIndex: -1
+    mbDynamicObjectsInCombinedMesh: []
+    verts: []
+    normals: []
+    tangents: []
+    uvs: []
+    uvsSliceIdx: []
+    uv2s: []
+    uv3s: []
+    uv4s: []
+    uv5s: []
+    uv6s: []
+    uv7s: []
+    uv8s: []
+    colors: []
+    bindPoses: []
+    bones: []
+    blendShapes: []
+    blendShapesInCombined: []
+    submeshTris: []
+    _meshBirth: 1
+    _mesh: {fileID: 0}

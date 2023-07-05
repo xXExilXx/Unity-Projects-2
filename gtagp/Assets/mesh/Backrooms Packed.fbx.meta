@@ -1,0 +1,318 @@
+fileFormatVersion: 2
+guid: 18d1bb763a313c740b1990a91925ff74
+ModelImporter:
+  serializedVersion: 22103
+  internalIDToNameTable:
+  - first:
+      74: 2443459609571925424
+    second: Big Square_Wall Paper|CameraAction
+  - first:
+      74: 505113943467873270
+    second: Big Square_Wall Paper|Ground Cube No Baseboard All SizesAction
+  - first:
+      74: 29749259800890944
+    second: Big Square_Wall Paper|Ground Cube With BaseboardAction
+  - first:
+      74: 4555054620642770474
+    second: Big Square_Wall Paper|No Baseboard Wall.001Action
+  - first:
+      74: -499624863731582493
+    second: Big Square_Wall Paper|No Baseboard WallAction.004
+  - first:
+      74: 3181617510645549323
+    second: Celing|CameraAction
+  - first:
+      74: -6267299757213930168
+    second: Celing|Ground Cube No Baseboard All SizesAction
+  - first:
+      74: -2052655863692382237
+    second: Celing|Ground Cube With BaseboardAction
+  - first:
+      74: -3229266109559739489
+    second: Celing|No Baseboard Wall.001Action
+  - first:
+      74: 8205301804417166210
+    second: Celing|No Baseboard WallAction.004
+  - first:
+      74: -742729544451966554
+    second: Lights|CameraAction
+  - first:
+      74: 9195440312368322687
+    second: Lights|Ground Cube No Baseboard All SizesAction
+  - first:
+      74: 7754676817516920738
+    second: Lights|Ground Cube With BaseboardAction
+  - first:
+      74: 4309705011450315582
+    second: Lights|No Baseboard Wall.001Action
+  - first:
+      74: 7758444965926261166
+    second: Lights|No Baseboard WallAction.004
+  - first:
+      74: 8104298127233261845
+    second: Celing.001|CameraAction
+  - first:
+      74: 6413183154743601247
+    second: Celing.001|Ground Cube No Baseboard All SizesAction
+  - first:
+      74: 4934453930446989046
+    second: Celing.001|Ground Cube With BaseboardAction
+  - first:
+      74: -4762234380622614080
+    second: Celing.001|No Baseboard Wall.001Action
+  - first:
+      74: 7013236969324660942
+    second: Celing.001|No Baseboard WallAction.004
+  - first:
+      74: -5946880195249558493
+    second: No Baseboard Wall|CameraAction
+  - first:
+      74: 7555583524133432809
+    second: No Baseboard Wall|Ground Cube No Baseboard All SizesAction
+  - first:
+      74: 8744073234225543577
+    second: No Baseboard Wall|Ground Cube With BaseboardAction
+  - first:
+      74: -3447314617129018100
+    second: No Baseboard Wall|No Baseboard Wall.001Action
+  - first:
+      74: -7446401322794840533
+    second: No Baseboard Wall|No Baseboard WallAction.004
+  - first:
+      74: -807008769504874197
+    second: No Baseboard Wall.001|CameraAction
+  - first:
+      74: -5282489649092965874
+    second: No Baseboard Wall.001|Ground Cube No Baseboard All SizesAction
+  - first:
+      74: 7486687390655897243
+    second: No Baseboard Wall.001|Ground Cube With BaseboardAction
+  - first:
+      74: -8903964706159698689
+    second: No Baseboard Wall.001|No Baseboard Wall.001Action
+  - first:
+      74: -8381938242066488267
+    second: No Baseboard Wall.001|No Baseboard WallAction.004
+  - first:
+      74: -6622429940116565673
+    second: Original Wall.001|CameraAction
+  - first:
+      74: 5523751224665044209
+    second: Original Wall.001|Ground Cube No Baseboard All SizesAction
+  - first:
+      74: 8919903489360992682
+    second: Original Wall.001|Ground Cube With BaseboardAction
+  - first:
+      74: 9076716987573286151
+    second: Original Wall.001|No Baseboard Wall.001Action
+  - first:
+      74: -2011771421448896428
+    second: Original Wall.001|No Baseboard WallAction.004
+  - first:
+      74: -6616409609507939107
+    second: Ground Cube With Baseboard|CameraAction
+  - first:
+      74: -8657170893163716513
+    second: Ground Cube With Baseboard|Ground Cube No Baseboard All SizesAction
+  - first:
+      74: -8312795376714457705
+    second: Ground Cube With Baseboard|Ground Cube With BaseboardAction
+  - first:
+      74: -4833959795280899373
+    second: Ground Cube With Baseboard|No Baseboard Wall.001Action
+  - first:
+      74: -6042455291949975796
+    second: Ground Cube With Baseboard|No Baseboard WallAction.004
+  - first:
+      74: 7547580983522449484
+    second: Ground Cube No Baseboard All Sizes|CameraAction
+  - first:
+      74: 585350029454405342
+    second: Ground Cube No Baseboard All Sizes|Ground Cube No Baseboard All SizesAction
+  - first:
+      74: -4882529697421875473
+    second: Ground Cube No Baseboard All Sizes|Ground Cube With BaseboardAction
+  - first:
+      74: -2374217838828875511
+    second: Ground Cube No Baseboard All Sizes|No Baseboard Wall.001Action
+  - first:
+      74: 983480607598523985
+    second: Ground Cube No Baseboard All Sizes|No Baseboard WallAction.004
+  - first:
+      74: 1449778202377095777
+    second: Vent All Sizes|CameraAction
+  - first:
+      74: 1310655826931657739
+    second: Vent All Sizes|Ground Cube No Baseboard All SizesAction
+  - first:
+      74: -3145929718351767355
+    second: Vent All Sizes|Ground Cube With BaseboardAction
+  - first:
+      74: 3156194648373307463
+    second: Vent All Sizes|No Baseboard Wall.001Action
+  - first:
+      74: -8792520382870603814
+    second: Vent All Sizes|No Baseboard WallAction.004
+  - first:
+      74: 7332717569359130267
+    second: Area|CameraAction
+  - first:
+      74: 8776337730568898682
+    second: Area|Ground Cube No Baseboard All SizesAction
+  - first:
+      74: 5623578663651820026
+    second: Area|Ground Cube With BaseboardAction
+  - first:
+      74: 6021116462973933872
+    second: Area|No Baseboard Wall.001Action
+  - first:
+      74: -4865197159602635962
+    second: Area|No Baseboard WallAction.004
+  - first:
+      74: 6008026088764937822
+    second: Area.001|CameraAction
+  - first:
+      74: 5976755229237960768
+    second: Area.001|Ground Cube No Baseboard All SizesAction
+  - first:
+      74: 8830775969549386495
+    second: Area.001|Ground Cube With BaseboardAction
+  - first:
+      74: -8344776501835964858
+    second: Area.001|No Baseboard Wall.001Action
+  - first:
+      74: -565277122674669756
+    second: Area.001|No Baseboard WallAction.004
+  - first:
+      74: 8468903073177437092
+    second: Short Hallway_Wall Paper|CameraAction
+  - first:
+      74: 3714404403109343358
+    second: Short Hallway_Wall Paper|Ground Cube No Baseboard All SizesAction
+  - first:
+      74: -2749516404877251158
+    second: Short Hallway_Wall Paper|Ground Cube With BaseboardAction
+  - first:
+      74: 106997371767640594
+    second: Short Hallway_Wall Paper|No Baseboard Wall.001Action
+  - first:
+      74: -3304997127272214754
+    second: Short Hallway_Wall Paper|No Baseboard WallAction.004
+  - first:
+      74: -7569900823667186900
+    second: Hallway Celing.002|CameraAction
+  - first:
+      74: 4499488271426736962
+    second: Hallway Celing.002|Ground Cube No Baseboard All SizesAction
+  - first:
+      74: -6690590175248388137
+    second: Hallway Celing.002|Ground Cube With BaseboardAction
+  - first:
+      74: 6037748064133589793
+    second: Hallway Celing.002|No Baseboard Wall.001Action
+  - first:
+      74: -284533327928166120
+    second: Hallway Celing.002|No Baseboard WallAction.004
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

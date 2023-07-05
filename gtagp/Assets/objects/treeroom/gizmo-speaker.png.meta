@@ -1,0 +1,313 @@
+fileFormatVersion: 2
+guid: b6e5b005cbab5024f8c550d4dd36606f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: gizmo-speaker
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 12
+  maxTextureSize: 512
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gizmo-speaker
+      rect:
+        serializedVersion: 2
+        x: 1.07612
+        y: 42.07612
+        width: 509.8478
+        height: 427.8478
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.99998, y: -92.00002}
+        - {x: 31.99998, y: -78.00002}
+        - {x: 31.99998, y: 70.99998}
+        - {x: 48.99998, y: 90.99998}
+        - {x: 49.99998, y: 91.99998}
+        - {x: 72.99998, y: 91.99998}
+        - {x: 108, y: 46.99998}
+        - {x: 108, y: -55.00002}
+        - {x: 107, y: -58.00002}
+        - {x: 64.99998, y: -92.00002}
+      - - {x: 88.99998, y: -152}
+        - {x: 72.99998, y: -124}
+        - {x: 72.99998, y: -112}
+        - {x: 121, y: -49.00002}
+        - {x: 120, y: 47.99998}
+        - {x: 72.99998, y: 110}
+        - {x: 72.99998, y: 124}
+        - {x: 94.99998, y: 152}
+        - {x: 102, y: 152}
+        - {x: 114, y: 143}
+        - {x: 141, y: 131}
+        - {x: 181, y: 57.99998}
+        - {x: 181, y: -42.00002}
+        - {x: 180, y: -51.00002}
+        - {x: 140, y: -130}
+        - {x: 105, y: -152}
+      - - {x: -112, y: -171}
+        - {x: -255, y: -88.00002}
+        - {x: -255, y: 84.99998}
+        - {x: -76.00002, y: 184}
+        - {x: 1.999985, y: 184}
+        - {x: 1.999985, y: -187}
+        - {x: -64.00002, y: -187}
+      - - {x: 116, y: -185}
+        - {x: 114, y: -178}
+        - {x: 114, y: -171}
+        - {x: 155, y: -137}
+        - {x: 187, y: -87.00002}
+        - {x: 203, y: -18.00002}
+        - {x: 194, y: 62.99998}
+        - {x: 155, y: 137}
+        - {x: 114, y: 170}
+        - {x: 114, y: 177}
+        - {x: 136, y: 214}
+        - {x: 147, y: 214}
+        - {x: 196, y: 170}
+        - {x: 217, y: 137}
+        - {x: 241, y: 90.99998}
+        - {x: 254, y: 47.99998}
+        - {x: 255, y: 22.99998}
+        - {x: 255, y: -34.00002}
+        - {x: 252, y: -57.00002}
+        - {x: 230, y: -119}
+        - {x: 196, y: -170}
+        - {x: 145, y: -214}
+        - {x: 138, y: -214}
+      physicsShape:
+      - - {x: 196, y: -163}
+        - {x: 209, y: -145}
+        - {x: 218, y: -132}
+        - {x: 233, y: -102}
+        - {x: 239, y: -87.00002}
+        - {x: 246, y: -68.00002}
+        - {x: 250, y: -46.00001}
+        - {x: 253, y: -25.00002}
+        - {x: 254, y: -13.00002}
+        - {x: 254, y: 14.99998}
+        - {x: 252, y: 32.99998}
+        - {x: 248, y: 56.99998}
+        - {x: 244, y: 75.99998}
+        - {x: 234, y: 103}
+        - {x: 219, y: 132}
+        - {x: 209, y: 146}
+        - {x: 203, y: 154}
+        - {x: 191, y: 168}
+        - {x: 166, y: 193}
+        - {x: 160, y: 198}
+        - {x: 144, y: 211}
+        - {x: 140, y: 212}
+        - {x: 133, y: 204}
+        - {x: 114, y: 178}
+        - {x: 114, y: 175}
+        - {x: 116, y: 171}
+        - {x: 134, y: 159}
+        - {x: 157, y: 137}
+        - {x: 157, y: 136}
+        - {x: 162, y: 130}
+        - {x: 177, y: 107}
+        - {x: 188, y: 86.99998}
+        - {x: 199, y: 56.99998}
+        - {x: 203, y: 40.99998}
+        - {x: 206, y: 19.99998}
+        - {x: 207, y: 18.99998}
+        - {x: 207, y: -19.00002}
+        - {x: 206, y: -20.00001}
+        - {x: 203, y: -41.00002}
+        - {x: 199, y: -57.00002}
+        - {x: 193, y: -75.00002}
+        - {x: 188, y: -87.00002}
+        - {x: 182, y: -98.00001}
+        - {x: 174, y: -112}
+        - {x: 157, y: -136}
+        - {x: 135, y: -159}
+        - {x: 134, y: -159}
+        - {x: 114, y: -174}
+        - {x: 114, y: -176}
+        - {x: 133, y: -204}
+        - {x: 140, y: -212}
+        - {x: 144, y: -211}
+        - {x: 151, y: -206}
+        - {x: 161, y: -198}
+        - {x: 191, y: -169}
+      - - {x: -52.00002, y: 183}
+        - {x: -232, y: 96.99998}
+        - {x: -255, y: 73.99998}
+        - {x: -255, y: -101}
+        - {x: -103, y: -186}
+        - {x: 0.9999847, y: -186}
+        - {x: 0.9999847, y: 183}
+      - - {x: 154, y: -96.00002}
+        - {x: 171, y: -62.00002}
+        - {x: 175, y: -46.00001}
+        - {x: 179, y: -26.00002}
+        - {x: 180, y: -17.00002}
+        - {x: 180, y: 16.99998}
+        - {x: 179, y: 25.99998}
+        - {x: 177, y: 36.99998}
+        - {x: 173, y: 53.99998}
+        - {x: 166, y: 71.99998}
+        - {x: 154, y: 95.99998}
+        - {x: 146, y: 108}
+        - {x: 139, y: 117}
+        - {x: 115, y: 141}
+        - {x: 101, y: 151}
+        - {x: 96.99998, y: 151}
+        - {x: 91.99998, y: 144}
+        - {x: 72.99998, y: 115}
+        - {x: 72.99998, y: 113}
+        - {x: 81.99998, y: 106}
+        - {x: 97.99998, y: 91.99998}
+        - {x: 114, y: 70.99998}
+        - {x: 122, y: 54.99998}
+        - {x: 129, y: 34.99998}
+        - {x: 133, y: 11.99998}
+        - {x: 134, y: -11.00002}
+        - {x: 133, y: -12.00002}
+        - {x: 130, y: -31.00002}
+        - {x: 124, y: -50.00002}
+        - {x: 121, y: -57.00002}
+        - {x: 112, y: -73.00001}
+        - {x: 97.99998, y: -92.00001}
+        - {x: 89.99998, y: -100}
+        - {x: 72.99998, y: -113}
+        - {x: 72.99998, y: -115}
+        - {x: 91.99998, y: -143}
+        - {x: 96.99998, y: -151}
+        - {x: 97.99998, y: -151}
+        - {x: 102, y: -150}
+        - {x: 109, y: -145}
+        - {x: 130, y: -126}
+        - {x: 143, y: -112}
+      - - {x: -53.00001, y: -111}
+        - {x: -98.00001, y: -67.00001}
+        - {x: -114, y: -52.00002}
+        - {x: -46.00001, y: -118}
+        - {x: -46.00001, y: -117}
+      - - {x: 107, y: -13.00002}
+        - {x: 107, y: 18.99998}
+        - {x: 104, y: 31.99998}
+        - {x: 92.99998, y: 56.99998}
+        - {x: 81.99998, y: 71.99998}
+        - {x: 60.99998, y: 89.99998}
+        - {x: 54.99998, y: 89.99998}
+        - {x: 39.99998, y: 66.99998}
+        - {x: 33.99998, y: 56.99998}
+        - {x: 32.99998, y: 53.99998}
+        - {x: 32.99998, y: 51.99998}
+        - {x: 45.99998, y: 38.99998}
+        - {x: 51.99998, y: 29.99998}
+        - {x: 58.99998, y: 12.99998}
+        - {x: 59.99998, y: -6.000015}
+        - {x: 54.99998, y: -24.00002}
+        - {x: 45.99998, y: -39.00002}
+        - {x: 32.99998, y: -52.00002}
+        - {x: 32.99998, y: -55.00002}
+        - {x: 56.99998, y: -90.00002}
+        - {x: 61.99998, y: -90.00002}
+        - {x: 81.99998, y: -72.00002}
+        - {x: 92.99998, y: -57.00002}
+        - {x: 104, y: -32.00002}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c3b23a8e334dd59db8b152dbfd7b6f
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      gizmo-speaker: 21300000
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
