@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a251b447e13f56340bd0a0151cb95ad1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - manager: {fileID: 4014810012579714082, guid: 121d98afe2836cf45b8f90372b14406c, type: 3}
+  - light: {instanceID: 0}
+  - IdleLight: {instanceID: 0}
+  - audioSource: {instanceID: 0}
+  - tagSound: {fileID: 8300000, guid: 84afb1d1cbdb72d49bf3b2da6dd13be5, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
