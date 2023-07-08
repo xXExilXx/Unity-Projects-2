@@ -5,7 +5,7 @@ using UnityEngine;
 public class Play : MonoBehaviour
 {
     public bool play;
-    public BeatSaberBlockSpawner spawner;
+    public NoteSpawner spawner;
 
     // Update is called once per frame
     void Update()

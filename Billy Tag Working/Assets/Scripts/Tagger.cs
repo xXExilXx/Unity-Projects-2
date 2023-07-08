@@ -7,8 +7,9 @@ using Photon.Realtime;
 public class Tagger : MonoBehaviourPunCallbacks, IPunObservable
 {
     public TagManager manager;
-    public Light light;
-    public Light idleLight;
+    public SkinnedMeshRenderer meshRenderer;
+    public Material taggedMaterial;
+    public Material idleMaterial;
     public AudioSource audioSource;
     public AudioClip tagSound;
     [Space]
@@ -22,7 +23,7 @@ public class Tagger : MonoBehaviourPunCallbacks, IPunObservable
 
     private void Start()
     {
-        light.enabled = false;
+        meshRenderer.material = idleMaterial;
         ready = false;
         score = 0;
     }
@@ -46,7 +47,7 @@ public class Tagger : MonoBehaviourPunCallbacks, IPunObservable
                 if (tagger != null && tagger.isTagged)
                 {
                     manager.AddTaggedPlayer(this);
-                    light.enabled = true;
+                    SetTagged(true);
                     audioSource.PlayOneShot(tagSound);
                 }
             }
@@ -61,13 +62,9 @@ public class Tagger : MonoBehaviourPunCallbacks, IPunObservable
     [PunRPC]
     private void ResetStateRPC()
     {
-        light.enabled = false;
+        meshRenderer.material = idleMaterial;
         isTagged = false;
         shouldSyncTaggedState = false;
-        if (!isLocal)
-        {
-            idleLight.enabled = true;
-        }
     }
 
     public void SetTagged(bool value)
@@ -84,13 +81,11 @@ public class Tagger : MonoBehaviourPunCallbacks, IPunObservable
         isTagged = value;
         if (isTagged)
         {
-            light.enabled = true;
-            idleLight.enabled = false;
+            meshRenderer.material = taggedMaterial;
         }
         else
         {
-            light.enabled = false;
-            idleLight.enabled = true;
+            meshRenderer.material = idleMaterial;
         }
     }
 
