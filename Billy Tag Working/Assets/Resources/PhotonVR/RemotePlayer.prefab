@@ -426,8 +426,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 4014810012579714082, guid: 121d98afe2836cf45b8f90372b14406c, type: 3}
-  light: {fileID: 3362837528901159536}
-  idleLight: {fileID: 3642513337098046563}
+  meshRenderer: {fileID: 0}
+  taggedMaterial: {fileID: 0}
+  idleMaterial: {fileID: 0}
   audioSource: {fileID: 3362837528901159541}
   tagSound: {fileID: 8300000, guid: 84afb1d1cbdb72d49bf3b2da6dd13be5, type: 3}
   isLocal: 0
@@ -831,7 +832,6 @@ GameObject:
   - component: {fileID: 3819694494365946193}
   - component: {fileID: 3819694494365946192}
   - component: {fileID: 3819694494365946195}
-  - component: {fileID: 3819694494365946199}
   m_Layer: 3
   m_Name: LeftHand
   m_TagString: RemotePlayer
@@ -932,7 +932,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.55
+  m_Radius: 0.7
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3819694494365946192
 MonoBehaviour:
@@ -1043,19 +1043,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!135 &3819694494365946199
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3819694494365946194}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4221735253236724801
 GameObject:
   m_ObjectHideFlags: 0
@@ -2105,7 +2092,6 @@ GameObject:
   - component: {fileID: 3384839955298183801}
   - component: {fileID: 3384839955298183800}
   - component: {fileID: 3384839955298183803}
-  - component: {fileID: 3384839955298183807}
   m_Layer: 3
   m_Name: RightHand
   m_TagString: RemotePlayer
@@ -2206,7 +2192,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.55
+  m_Radius: 0.7
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3384839955298183800
 MonoBehaviour:
@@ -2317,19 +2303,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!135 &3384839955298183807
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6724762774363864014}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6745250367009165076
 GameObject:
   m_ObjectHideFlags: 0

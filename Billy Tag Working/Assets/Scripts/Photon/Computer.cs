@@ -4,6 +4,8 @@ using UnityEngine;
 using System.Collections;
 using Photon.Pun;
 using UnityEngine.UI;
+using System;
+
 
 public class Computer : MonoBehaviour
 {
@@ -30,9 +32,10 @@ public class Computer : MonoBehaviour
     private void Start()
     {
         PhotonVRManager.SetUsername(System.Environment.MachineName);
-        _selectedQueueOption = PlayerPrefs.GetString(SelectedQueueOptionKey);
+        _selectedQueueOption = PlayerPrefs.GetString(SelectedQueueOptionKey, "Default"); // Use "Default" as the default value if no value is found
         UpdateText();
     }
+
     private void Update()
     {
         if (_menuState == MenuState.Main)
@@ -63,12 +66,7 @@ public class Computer : MonoBehaviour
                 if (_selectedOptionIndex == 1) // Queue option is selected
                 {
                     _menuState = MenuState.Queue;
-                    _selectedQueueOptionIndex = 0;
-                    _selectedQueueOption = _queueOptions[_selectedQueueOptionIndex];
-
-                    // Save the selected queue option to PlayerPrefs
-                    PlayerPrefs.SetString(SelectedQueueOptionKey, _selectedQueueOption);
-
+                    _selectedQueueOptionIndex = Array.IndexOf(_queueOptions, _selectedQueueOption);
                     UpdateText();
                 }
                 else if (_selectedOptionIndex == 2) // Leave option is selected
@@ -79,18 +77,10 @@ public class Computer : MonoBehaviour
                 else // Join option is selected
                 {
                     PhotonVRManager.JoinRandomRoom(_selectedQueueOption, 10);
-                    if(_selectedQueueOption == "Default")
-                    {
-                        manager.isReady = false;
-                    }
-                    if(_selectedQueueOption == "Deathmatch")
-                    {
-                        manager.isReady = true;
-                    }
+                    manager.isReady = (_selectedQueueOption == "Deathmatch");
                 }
                 wasEnterPressed = false;
             }
-
         }
         else if (_menuState == MenuState.Queue)
         {
@@ -120,11 +110,13 @@ public class Computer : MonoBehaviour
             else if (wasEnterPressed)
             {
                 _menuState = MenuState.Main;
+                PlayerPrefs.SetString(SelectedQueueOptionKey, _selectedQueueOption);
                 UpdateText();
                 wasEnterPressed = false;
             }
         }
     }
+
     private void UpdateText()
     {
         if (_menuState == MenuState.Main)
