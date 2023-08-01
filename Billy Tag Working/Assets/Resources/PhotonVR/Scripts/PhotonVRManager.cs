@@ -330,6 +330,7 @@ namespace Photon.VR
 
         public static void _JoinPrivateRoom(string RoomId, int MaxPlayers)
         {
+            Manager.State = ConnectionState.JoiningRoom;
             PhotonNetwork.JoinOrCreateRoom(RoomId, new RoomOptions()
             {
                 IsVisible = false,

@@ -38,10 +38,10 @@ namespace Photon.VR.Player
                 PhotonVRManager.Manager.LocalPlayer = this;
                 if (HideLocalPlayer)
                 {
-                    Head.gameObject.SetActive(false);
                     Body.gameObject.SetActive(false);
-                    RightHand.gameObject.SetActive(false);
+                    Head.gameObject.SetActive(false);
                     LeftHand.gameObject.SetActive(false);
+                    RightHand.gameObject.SetActive(false);
                 }
             }
 

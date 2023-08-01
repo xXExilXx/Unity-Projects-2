@@ -2,23 +2,22 @@ using UnityEngine;
 
 public class Wind : MonoBehaviour
 {
-    public float boostForce = 1000f; // Adjust the boost force as desired
-    public Vector3 shootingDirection = Vector3.forward; // Set the shooting direction
+    public float boostForce = 1000f;
+    public Vector3 shootingDirection = Vector3.forward;
+    public Rigidbody rb;
+    public CustomCollider.Collider cl;
 
-    private bool waspressed;
-
-    private void OnTriggerEnter(Collider other)
+    private void Awake()
     {
-        if (other.CompareTag("Throwable") && waspressed)
+        CustomCollider.Collider.onetick = false;
+        cl.tag = "Player";
+    }
+    private void OnTriggerEnter(UnityEngine.Collider other)
+    {
+        if (other.CompareTag("Player") && !cl.istouched)
         {
-            if(waspressed)
-            {
-                 waspressed = false;
-            }
-            Rigidbody playerRigidbody = other.GetComponent<Rigidbody>();
-            // Shoot the player in the specified direction immediately
+            Rigidbody playerRigidbody = rb;
             playerRigidbody.AddForce(shootingDirection.normalized * boostForce, ForceMode.Impulse);
         }
-        waspressed = true;
     }
-}
+} 

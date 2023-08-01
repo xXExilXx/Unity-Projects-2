@@ -8,6 +8,15 @@ public class MusicPlayer : MonoBehaviour
     public bool secondSpeake;
     public AudioSource Music2;
 
+    private void Start()
+    {
+        Music.mute = true;
+        if (secondSpeake)
+        {
+            Music2.mute = true;
+        }
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
