@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine;
 using Photon.VR.Cosmetics;
 using Photon.VR;
+using System.Linq;
 
 public class Terminal : MonoBehaviour
 {
@@ -81,6 +82,7 @@ public class Terminal : MonoBehaviour
         }
         else
         {
+            items = items.GroupBy(item => item.Id).Select(group => group.First()).ToList();
             items.RemoveAll(item => boughtItems.Exists(boughtItem => boughtItem.Id == item.Id));
             CoinManager.ModifyCoins(totalCost);
             boughtItems.AddRange(items);

@@ -69,6 +69,8 @@ namespace Photon.VR
                 Colour = JsonUtility.FromJson<Color>(PlayerPrefs.GetString("Colour"));
             if (!string.IsNullOrEmpty(PlayerPrefs.GetString("Cosmetics")))
                 Cosmetics = JsonUtility.FromJson<PhotonVRCosmeticsData>(PlayerPrefs.GetString("Cosmetics"));
+            if (!string.IsNullOrEmpty(PlayerPrefs.GetString("Username")))
+                PhotonNetwork.LocalPlayer.NickName = PlayerPrefs.GetString("Username");
 
         }
 
