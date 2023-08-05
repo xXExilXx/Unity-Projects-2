@@ -22,7 +22,6 @@ public class SwingScript : MonoBehaviour
         aimball = Instantiate(AimPrefab);
         lr.enabled = false;
     }
-
     void Update()
     {
         InputDevice device = InputDevices.GetDeviceAtXRNode(controllerNode);
@@ -56,7 +55,6 @@ public class SwingScript : MonoBehaviour
             wasPressedGrip = false;
         }
     }
-
     void LateUpdate()
     {
         DrawRope();

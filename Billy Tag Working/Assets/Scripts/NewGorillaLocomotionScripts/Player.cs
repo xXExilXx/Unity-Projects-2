@@ -259,7 +259,6 @@
         {
             RaycastHit hitInfo;
             Vector3 movementToProjectedAboveCollisionPlane;
-            Surface gorillaSurface;
             float slipPercentage;
             //first spherecast from the starting position to the final position
             if (CollisionsSphereCast(startPosition, sphereRadius * precision, movementVector, precision, out endPosition, out hitInfo))
@@ -268,8 +267,7 @@
 
                 //take the surface normal that we hit, then along that plane, do a spherecast to a position a small distance away to account for moving perpendicular to that surface
                 Vector3 firstPosition = endPosition;
-                gorillaSurface = hitInfo.collider.GetComponent<Surface>();
-                slipPercentage = gorillaSurface != null ? gorillaSurface.slipPercentage : (!singleHand ? defaultSlideFactor : 0.001f);
+                slipPercentage = !singleHand ? defaultSlideFactor : 0.001f;
                 movementToProjectedAboveCollisionPlane = Vector3.ProjectOnPlane(startPosition + movementVector - firstPosition, hitInfo.normal) * slipPercentage;
                 if (CollisionsSphereCast(endPosition, sphereRadius, movementToProjectedAboveCollisionPlane, precision * precision, out endPosition, out hitInfo))
                 {
@@ -294,7 +292,8 @@
             {
                 endPosition = startPosition;
                 return true;
-            } else
+            }
+            else
             {
                 endPosition = Vector3.zero;
                 return false;

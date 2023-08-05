@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: PhotonServerSettings
   m_EditorClassIdentifier: 
   AppSettings:
-    AppIdRealtime: de43b3f7-dde6-4aae-b59b-a46d1d9214c2
+    AppIdRealtime: 
     AppIdFusion: 
     AppIdChat: 
-    AppIdVoice: 31b3a191-41a0-4bec-ae15-fd51405372f6
-    AppVersion: 12
+    AppIdVoice: 
+    AppVersion: 
     UseNameServer: 1
-    FixedRegion: eu
+    FixedRegion: 
     Server: 
     Port: 0
     ProxyServer: 
@@ -38,17 +38,14 @@ MonoBehaviour:
   - ChangeColour
   - ClickRpc
   - DestroyRpc
-  - DestroySpaceship
-  - Fire
   - HeresWhy
-  - RespawnSpaceship
-  - EndGame
-  - RPCRefreshPlayerValues
-  - StartGame
-  - ResetStateRPC
-  - SetTaggedRPC
   - DeleteLineRenderer
+  - EndGame
+  - ResetStateRPC
+  - RPCRefreshPlayerValues
   - SendLineRendererData
+  - SetTaggedRPC
+  - StartGame
   DisableAutoOpenWizard: 1
-  ShowSettings: 1
+  ShowSettings: 0
   DevRegionSetOnce: 0

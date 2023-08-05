@@ -2,8 +2,6 @@ using Photon.VR;
 using TMPro;
 using UnityEngine;
 using Photon.Pun;
-using Oculus.Platform;
-using Oculus.Platform.Models;
 
 public class Computer : MonoBehaviour
 {
@@ -17,40 +15,16 @@ public class Computer : MonoBehaviour
     public GameModeBoard gmb;
     public motd modttext;
     // Selection options
-    private string[] _options = { "Motd", "Join", "Leave", "UserData" };
+    private string[] _options = { "Motd", "Join", "Leave", "UserData"};
     private int _selectedOptionIndex = 0;
 
     private void Start()
     {
-
-        if (UnityEngine.Application.isMobilePlatform)
+        if(PlayerPrefs.GetString("Username") != System.Environment.UserName)
         {
-            Core.AsyncInitialize();
-            Oculus.Platform.Users.GetLoggedInUser().OnComplete(GetUserCallback);
-        }
-        else
-        {
-            if(PlayerPrefs.GetString("Username") != System.Environment.UserName)
-            {
-                PhotonVRManager.SetUsername(System.Environment.UserName);
-            }
+             PhotonVRManager.SetUsername(System.Environment.UserName);
         }
         UpdateText();
-    }
-    private void GetUserCallback(Message<User> message)
-    {
-        if (message.IsError)
-        {
-            Debug.LogError("Failed to get Oculus user: " + message.GetError().Message);
-            return;
-        }
-
-        User user = message.Data;
-        if(PlayerPrefs.GetString("Username") != user.DisplayName)
-        {
-            PhotonVRManager.SetUsername(user.DisplayName);
-        }
-
     }
 
     private void Update()
@@ -85,10 +59,6 @@ public class Computer : MonoBehaviour
             else if(_selectedOptionIndex == 1)// Join option is selected
             {
                 PhotonVRManager.JoinRandomRoom(gmb.CurrentGamemode, 10);
-            }
-            else
-            {
-                return;
             }
             wasEnterPressed = false;
         }

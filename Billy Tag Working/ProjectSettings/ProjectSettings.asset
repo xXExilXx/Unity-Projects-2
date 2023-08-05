@@ -103,7 +103,7 @@ PlayerSettings:
   xboxEnableFitness: 0
   visibleInBackground: 1
   allowFullscreenSwitch: 1
-  fullscreenMode: 3
+  fullscreenMode: 1
   xboxSpeechDB: 0
   xboxEnableHeadOrientation: 0
   xboxEnableGuest: 0
@@ -139,7 +139,11 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 7.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: eb84867302ed045349bae371346a3123, type: 2}
+  - {fileID: 11400000, guid: 1ff1cc8ef39b29a4cb1e857d4e69c266, type: 2}
+  - {fileID: 724918614523763421, guid: 5ff74492a84b64ed7a0e7c162f53d570, type: 2}
+  - {fileID: -6029064657592996730, guid: e592d543fd42b4c97a11ac8d978280ca, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -165,7 +169,7 @@ PlayerSettings:
     Standalone: 0
     iPhone: 0
     tvOS: 0
-  overrideDefaultApplicationIdentifier: 0
+  overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 29
   AndroidTargetSdkVersion: 0
@@ -830,7 +834,7 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 1
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0

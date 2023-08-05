@@ -355,12 +355,12 @@ namespace Photon.VR
             Debug.Log("Disconnected from server");
         }
 
-        public override void OnJoinRandomFailed(short returnCode, string message) => HandleJoinError();
+        public override void OnJoinRandomFailed(short returnCode, string message) => HandleJoinError(message);
 
-        private void HandleJoinError()
+        private void HandleJoinError(string message)
         {
             Debug.Log("Failed to join room - creating a new one");
-
+            Debug.Log(message);
             string roomCode = CreateRoomCode();
             Debug.Log($"Joining {roomCode}");
             PhotonNetwork.CreateRoom(roomCode, options, null, null);

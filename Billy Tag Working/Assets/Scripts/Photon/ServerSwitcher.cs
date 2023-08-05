@@ -1,18 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
+using Photon.VR;
 
-public class ServerSwitcher : MonoBehaviour
+public class ServerSwitcher : MonoBehaviourPunCallbacks
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public List<string> appids = new List<string>();
+    public List<string> voiceids = new List<string>();
 
-    // Update is called once per frame
-    void Update()
+    public override void OnJoinRoomFailed(short returnCode, string message)
     {
-        
+        Debug.Log(message);
+        if(returnCode == 32757)
+        {
+            int random = Random.Range(0, appids.Count);
+            PhotonVRManager.ChangeServers(appids[random], voiceids[random]);
+        }
     }
 }

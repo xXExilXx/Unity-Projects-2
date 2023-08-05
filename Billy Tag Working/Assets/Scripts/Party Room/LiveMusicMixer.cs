@@ -36,11 +36,18 @@ public class LiveMusicMixer : MonoBehaviour
 
     private IEnumerator StartMixing()
     {
+        if(player.Music && player.Music2 == null)
+        {
+            player.Music = audioSource1;
+            player.Music2 = audioSource2;
+        }
+        
         isPlaying = true;
         while (isPlaying)
         {
             AudioClip currentClip = musicClips[currentClipIndex];
             audioSource1.clip = currentClip;
+            frequencyVisualizer.audioSource = audioSource1;
             audioSource1.Play();
 
             // Update the FrequencyVisualizer with the current audio source
@@ -61,6 +68,7 @@ public class LiveMusicMixer : MonoBehaviour
             // Start the crossfade and preload the next song in audioSource2
             audioSource2.clip = musicClips[(currentClipIndex + 1) % musicClips.Length];
             audioSource2.volume = mainVolume;
+            frequencyVisualizer.audioSource = audioSource2;
             audioSource2.Play();
             frequencyVisualizer.audioSource = audioSource2;
 
